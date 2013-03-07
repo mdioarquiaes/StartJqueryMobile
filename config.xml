@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns		= "http://www.w3.org/ns/widgets"
+	xmlns:gap	= "http://phonegap.com/ns/1.0"
+	id		= "es.arquia.jquerymobile.start"
+	version 	= "1.0.0">
+
+	<name>Start JqueryMobile</name>
+
+	<description>
+		Description Demo Start JqueryMobile
+	</description>
+
+	<author href="http://www.arquia.es"
+		email="md.io@arquia.es">
+		Kitus
+	</author>
+
+	<gap:platforms>
+		<gap:platform name="android" minVersion="2.1" />
+		<gap:platform name="webos" />
+		<gap:platform name="symbian.wrt" />
+		<gap:platform name="blackberry" project="widgets"/>
+	</gap:platforms>
+
+	<icon src="blurry.png" gap:role="default" />
+
+    <gap:splash src="weirdo.png" />
+</widget>
